@@ -49,40 +49,6 @@ public/
 
 ---
 
-## 🖥️ Sections Implemented
-
-1. **Hero Section**
-
-   * Gradient background
-   * Custom typography
-   * Accelerated scroll-to-bottom interaction
-
-2. **Our North Star**
-
-   * Circular visual system
-   * Custom icon placement
-   * Progress indicator
-
-3. **Meet Our Founder**
-
-   * 2×2 grid layout
-   * Image + text alignment
-   * Figma-style pagination
-
-4. **This Is Why We Exist**
-
-   * Centered messaging
-   * Three-step framework
-   * Vertical connectors & dashed baseline
-
-5. **How We Transform Leadership**
-
-   * Stair-step column layout
-   * Bars positioned below text (Figma-accurate)
-   * Equal bar heights with structural staggering
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the repository
@@ -109,29 +75,6 @@ The app will be available at:
 ```
 http://localhost:5173
 ```
-
----
-
-## 🌍 Deployment
-
-The project is deployed on **Vercel**.
-
-### Deploy steps:
-
-```bash
-npm run build
-```
-
-Then deploy the `dist/` folder using Vercel CLI or the Vercel dashboard.
-
----
-
-## 🎨 Design Notes
-
-* All spacing, alignment, and hierarchy decisions closely follow the provided Figma file.
-* Native CSS borders were avoided for dashed lines to ensure **precise dash spacing**, achieved using `repeating-linear-gradient`.
-* Layout staggering is handled structurally (column flow), not with arbitrary margins.
-* Custom scroll animation uses `requestAnimationFrame` for a premium feel.
 
 ---
 
