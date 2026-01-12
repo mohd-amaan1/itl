@@ -88,7 +88,7 @@ public/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/mohd-amaan1/itl
 cd itl-website
 ```
 
@@ -163,6 +163,4 @@ CSE, IIIT Kota
 ## 📄 License
 
 This project is created for evaluation and demonstration purposes only.
-
-```
 
